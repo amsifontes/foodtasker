@@ -17,6 +17,8 @@
 		ECF89FE221CDFADD00F45BD8 /* CustomerMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF89FE121CDFADD00F45BD8 /* CustomerMenuTableViewController.swift */; };
 		ECF89FE421CE009400F45BD8 /* MealListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF89FE321CE009400F45BD8 /* MealListTableViewController.swift */; };
 		ECF89FE621CE08F800F45BD8 /* MealDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF89FE521CE08F800F45BD8 /* MealDetailsViewController.swift */; };
+		ECF89FE821CF35CD00F45BD8 /* TrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF89FE721CF35CD00F45BD8 /* TrayViewController.swift */; };
+		ECF89FEB21CF36F500F45BD8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF89FEA21CF36F500F45BD8 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		ECF89FE121CDFADD00F45BD8 /* CustomerMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerMenuTableViewController.swift; sourceTree = "<group>"; };
 		ECF89FE321CE009400F45BD8 /* MealListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListTableViewController.swift; sourceTree = "<group>"; };
 		ECF89FE521CE08F800F45BD8 /* MealDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailsViewController.swift; sourceTree = "<group>"; };
+		ECF89FE721CF35CD00F45BD8 /* TrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrayViewController.swift; sourceTree = "<group>"; };
+		ECF89FEA21CF36F500F45BD8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECF89FEB21CF36F500F45BD8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +57,7 @@
 			children = (
 				ECF89FC721CB64FF00F45BD8 /* FoodTaskerMobile */,
 				ECF89FC621CB64FF00F45BD8 /* Products */,
+				ECF89FE921CF36F500F45BD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +86,7 @@
 				ECF89FE121CDFADD00F45BD8 /* CustomerMenuTableViewController.swift */,
 				ECF89FE321CE009400F45BD8 /* MealListTableViewController.swift */,
 				ECF89FE521CE08F800F45BD8 /* MealDetailsViewController.swift */,
+				ECF89FE721CF35CD00F45BD8 /* TrayViewController.swift */,
 			);
 			path = FoodTaskerMobile;
 			sourceTree = "<group>";
@@ -89,6 +96,14 @@
 			children = (
 			);
 			path = Lib;
+			sourceTree = "<group>";
+		};
+		ECF89FE921CF36F500F45BD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECF89FEA21CF36F500F45BD8 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +181,7 @@
 			files = (
 				ECF89FCB21CB64FF00F45BD8 /* ViewController.swift in Sources */,
 				ECF89FE621CE08F800F45BD8 /* MealDetailsViewController.swift in Sources */,
+				ECF89FE821CF35CD00F45BD8 /* TrayViewController.swift in Sources */,
 				ECF89FE021CDF6D400F45BD8 /* RestaurantViewController.swift in Sources */,
 				ECF89FE421CE009400F45BD8 /* MealListTableViewController.swift in Sources */,
 				ECF89FC921CB64FF00F45BD8 /* AppDelegate.swift in Sources */,
