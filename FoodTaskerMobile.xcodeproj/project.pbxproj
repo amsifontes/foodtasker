@@ -12,6 +12,11 @@
 		ECF89FCE21CB64FF00F45BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF89FCC21CB64FF00F45BD8 /* Main.storyboard */; };
 		ECF89FD021CB64FF00F45BD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF89FCF21CB64FF00F45BD8 /* Assets.xcassets */; };
 		ECF89FD321CB64FF00F45BD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF89FD121CB64FF00F45BD8 /* LaunchScreen.storyboard */; };
+		ECF89FDD21CCBEB500F45BD8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF89FDC21CCBEB500F45BD8 /* SWRevealViewController.m */; };
+		ECF89FE021CDF6D400F45BD8 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF89FDF21CDF6D400F45BD8 /* RestaurantViewController.swift */; };
+		ECF89FE221CDFADD00F45BD8 /* CustomerMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF89FE121CDFADD00F45BD8 /* CustomerMenuTableViewController.swift */; };
+		ECF89FE421CE009400F45BD8 /* MealListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF89FE321CE009400F45BD8 /* MealListTableViewController.swift */; };
+		ECF89FE621CE08F800F45BD8 /* MealDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF89FE521CE08F800F45BD8 /* MealDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,13 @@
 		ECF89FCF21CB64FF00F45BD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECF89FD221CB64FF00F45BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECF89FD421CB64FF00F45BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF89FDA21CCBEB400F45BD8 /* FoodTaskerMobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "FoodTaskerMobile-Bridging-Header.h"; path = "/Users/asifontes/foodtasker_ios/FoodTaskerMobile/FoodTaskerMobile/FoodTaskerMobile-Bridging-Header.h"; sourceTree = "<absolute>"; };
+		ECF89FDB21CCBEB500F45BD8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		ECF89FDC21CCBEB500F45BD8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		ECF89FDF21CDF6D400F45BD8 /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		ECF89FE121CDFADD00F45BD8 /* CustomerMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerMenuTableViewController.swift; sourceTree = "<group>"; };
+		ECF89FE321CE009400F45BD8 /* MealListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListTableViewController.swift; sourceTree = "<group>"; };
+		ECF89FE521CE08F800F45BD8 /* MealDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,29 @@
 		ECF89FC721CB64FF00F45BD8 /* FoodTaskerMobile */ = {
 			isa = PBXGroup;
 			children = (
+				ECF89FDE21CCBED500F45BD8 /* Lib */,
 				ECF89FC821CB64FF00F45BD8 /* AppDelegate.swift */,
 				ECF89FCA21CB64FF00F45BD8 /* ViewController.swift */,
 				ECF89FCC21CB64FF00F45BD8 /* Main.storyboard */,
 				ECF89FCF21CB64FF00F45BD8 /* Assets.xcassets */,
 				ECF89FD121CB64FF00F45BD8 /* LaunchScreen.storyboard */,
 				ECF89FD421CB64FF00F45BD8 /* Info.plist */,
+				ECF89FDB21CCBEB500F45BD8 /* SWRevealViewController.h */,
+				ECF89FDC21CCBEB500F45BD8 /* SWRevealViewController.m */,
+				ECF89FDA21CCBEB400F45BD8 /* FoodTaskerMobile-Bridging-Header.h */,
+				ECF89FDF21CDF6D400F45BD8 /* RestaurantViewController.swift */,
+				ECF89FE121CDFADD00F45BD8 /* CustomerMenuTableViewController.swift */,
+				ECF89FE321CE009400F45BD8 /* MealListTableViewController.swift */,
+				ECF89FE521CE08F800F45BD8 /* MealDetailsViewController.swift */,
 			);
 			path = FoodTaskerMobile;
+			sourceTree = "<group>";
+		};
+		ECF89FDE21CCBED500F45BD8 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +123,7 @@
 				TargetAttributes = {
 					ECF89FC421CB64FF00F45BD8 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,7 +165,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECF89FCB21CB64FF00F45BD8 /* ViewController.swift in Sources */,
+				ECF89FE621CE08F800F45BD8 /* MealDetailsViewController.swift in Sources */,
+				ECF89FE021CDF6D400F45BD8 /* RestaurantViewController.swift in Sources */,
+				ECF89FE421CE009400F45BD8 /* MealListTableViewController.swift in Sources */,
 				ECF89FC921CB64FF00F45BD8 /* AppDelegate.swift in Sources */,
+				ECF89FE221CDFADD00F45BD8 /* CustomerMenuTableViewController.swift in Sources */,
+				ECF89FDD21CCBEB500F45BD8 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +307,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FoodTaskerMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Sylver-Group.FoodTaskerMobile";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FoodTaskerMobile/FoodTaskerMobile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,11 +324,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FoodTaskerMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Sylver-Group.FoodTaskerMobile";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FoodTaskerMobile/FoodTaskerMobile-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
