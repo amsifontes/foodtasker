@@ -1,16 +1,56 @@
 PODS:
+  - Alamofire (4.8.0)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - FBSDKCoreKit (4.39.0):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.39.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.39.0):
+    - FBSDKCoreKit
   - Stripe (14.0.0)
+  - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.8.0)
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
   - Stripe
+  - SwiftyJSON (from `https://github.com/BaiduHiDeviOS/SwiftyJSON.git`, branch `swift3`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Bolts
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
     - Stripe
 
-SPEC CHECKSUMS:
-  Stripe: db29ad197c74aca6fb981e4e8355cf7ebd0fca5a
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :branch: swift3
+    :git: https://github.com/BaiduHiDeviOS/SwiftyJSON.git
 
-PODFILE CHECKSUM: dff9154c14cad1e34f351892f347630fbc8137fb
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: de5dc3b1b421805769590d331178551bbb0e5733
+    :git: https://github.com/BaiduHiDeviOS/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  FBSDKCoreKit: 1e3981faefab8c88edfaa9eecd94aab02d99a9bc
+  FBSDKLoginKit: 30ba5039a2c53d65a75103889bc2deebdacd5a1f
+  FBSDKShareKit: 5a0021c30abb64df9eeba87351dd8a627874543b
+  Stripe: db29ad197c74aca6fb981e4e8355cf7ebd0fca5a
+  SwiftyJSON: 6118fb49d7519c4d31a0c1f3d5af936e9047b556
+
+PODFILE CHECKSUM: eda4adfc1fd74b1e01f37f771c7183b4fa1beb01
 
 COCOAPODS: 1.5.3
