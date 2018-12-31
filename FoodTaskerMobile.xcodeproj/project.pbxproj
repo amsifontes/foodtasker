@@ -93,7 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				EC11EC3721D9A23500772E66 /* FoodTaskerMobile.entitlements */,
-				ECF89FDE21CCBED500F45BD8 /* Lib */,
 				ECF89FC821CB64FF00F45BD8 /* AppDelegate.swift */,
 				ECF89FCA21CB64FF00F45BD8 /* ViewController.swift */,
 				ECF89FCC21CB64FF00F45BD8 /* Main.storyboard */,
@@ -112,13 +111,6 @@
 				EC11EC3521D997DD00772E66 /* OrderViewController.swift */,
 			);
 			path = FoodTaskerMobile;
-			sourceTree = "<group>";
-		};
-		ECF89FDE21CCBED500F45BD8 /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Lib;
 			sourceTree = "<group>";
 		};
 		ECF89FE921CF36F500F45BD8 /* Frameworks */ = {
