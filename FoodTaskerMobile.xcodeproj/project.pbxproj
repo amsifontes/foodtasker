@@ -10,6 +10,7 @@
 		B9C5D042D5779C4C057DC401 /* Pods_FoodTaskerMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D517C721EB337EC1B76E5F9C /* Pods_FoodTaskerMobile.framework */; };
 		EC11EC3421D0A6B400772E66 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11EC3321D0A6B400772E66 /* PaymentViewController.swift */; };
 		EC11EC3621D997DD00772E66 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11EC3521D997DD00772E66 /* OrderViewController.swift */; };
+		EC3B5DDE21D9C57A00562B6E /* FBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3B5DDD21D9C57A00562B6E /* FBManager.swift */; };
 		ECF89FC921CB64FF00F45BD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF89FC821CB64FF00F45BD8 /* AppDelegate.swift */; };
 		ECF89FCB21CB64FF00F45BD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF89FCA21CB64FF00F45BD8 /* ViewController.swift */; };
 		ECF89FCE21CB64FF00F45BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF89FCC21CB64FF00F45BD8 /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 		EC11EC3321D0A6B400772E66 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		EC11EC3521D997DD00772E66 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		EC11EC3721D9A23500772E66 /* FoodTaskerMobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoodTaskerMobile.entitlements; sourceTree = "<group>"; };
+		EC3B5DDD21D9C57A00562B6E /* FBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBManager.swift; sourceTree = "<group>"; };
 		ECF89FC521CB64FF00F45BD8 /* FoodTaskerMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTaskerMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF89FC821CB64FF00F45BD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECF89FCA21CB64FF00F45BD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				ECF89FE721CF35CD00F45BD8 /* TrayViewController.swift */,
 				EC11EC3321D0A6B400772E66 /* PaymentViewController.swift */,
 				EC11EC3521D997DD00772E66 /* OrderViewController.swift */,
+				EC3B5DDD21D9C57A00562B6E /* FBManager.swift */,
 			);
 			path = FoodTaskerMobile;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECF89FCB21CB64FF00F45BD8 /* ViewController.swift in Sources */,
+				EC3B5DDE21D9C57A00562B6E /* FBManager.swift in Sources */,
 				EC11EC3621D997DD00772E66 /* OrderViewController.swift in Sources */,
 				ECF89FE621CE08F800F45BD8 /* MealDetailsViewController.swift in Sources */,
 				ECF89FE821CF35CD00F45BD8 /* TrayViewController.swift in Sources */,
