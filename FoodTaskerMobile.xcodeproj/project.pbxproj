@@ -10,6 +10,7 @@
 		B9C5D042D5779C4C057DC401 /* Pods_FoodTaskerMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D517C721EB337EC1B76E5F9C /* Pods_FoodTaskerMobile.framework */; };
 		EC11EC3421D0A6B400772E66 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11EC3321D0A6B400772E66 /* PaymentViewController.swift */; };
 		EC11EC3621D997DD00772E66 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11EC3521D997DD00772E66 /* OrderViewController.swift */; };
+		EC31B12B21E1A21200FAAB28 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31B12A21E1A21200FAAB28 /* LoginViewController.swift */; };
 		EC3B5DDE21D9C57A00562B6E /* FBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3B5DDD21D9C57A00562B6E /* FBManager.swift */; };
 		ECF89FC921CB64FF00F45BD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF89FC821CB64FF00F45BD8 /* AppDelegate.swift */; };
 		ECF89FCB21CB64FF00F45BD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF89FCA21CB64FF00F45BD8 /* ViewController.swift */; };
@@ -32,6 +33,7 @@
 		EC11EC3321D0A6B400772E66 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		EC11EC3521D997DD00772E66 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		EC11EC3721D9A23500772E66 /* FoodTaskerMobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoodTaskerMobile.entitlements; sourceTree = "<group>"; };
+		EC31B12A21E1A21200FAAB28 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EC3B5DDD21D9C57A00562B6E /* FBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBManager.swift; sourceTree = "<group>"; };
 		ECF89FC521CB64FF00F45BD8 /* FoodTaskerMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTaskerMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF89FC821CB64FF00F45BD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				EC11EC3321D0A6B400772E66 /* PaymentViewController.swift */,
 				EC11EC3521D997DD00772E66 /* OrderViewController.swift */,
 				EC3B5DDD21D9C57A00562B6E /* FBManager.swift */,
+				EC31B12A21E1A21200FAAB28 /* LoginViewController.swift */,
 			);
 			path = FoodTaskerMobile;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC31B12B21E1A21200FAAB28 /* LoginViewController.swift in Sources */,
 				ECF89FCB21CB64FF00F45BD8 /* ViewController.swift in Sources */,
 				EC3B5DDE21D9C57A00562B6E /* FBManager.swift in Sources */,
 				EC11EC3621D997DD00772E66 /* OrderViewController.swift in Sources */,
